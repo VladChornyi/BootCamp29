@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  max-width: 1140px;
+}
+
+:root {
+  --primary-title-color: #323232;
+  --primary-text-color: #999;
+  --secondary-text-color: #fff;
+  --acent-color: #4985ff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+/* Клас скидання стилів для списків */
+.list {
+  list-style: none;
+}
+
+/* Хедер */
+.header {
+  background-color: gray;
+}
+
+.header-link {
+  color: var(--secondary-text-color);
+}
+
+/* Секція "Герой" */
+.hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
+}
+
+.hero-sup-title {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 829px;
+  text-align: center;
+}
+
+.hero-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 200px;
+  height: 45px;
+  background-color: grey;
+  text-align: center;
+}

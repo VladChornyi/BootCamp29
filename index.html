@@ -5,27 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ITстудія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="">Головна</a></li>
-          <li><a href="">Наші проекти</a></li>
-          <li><a href="">Послуги</a></li>
-          <li><a href="">Новини</a></li>
-          <li><a href="">Контакти</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <ul class="header-list list">
+            <li class="header-item"><a class="header-link" href="">Головна</a></li>
+            <li class="header-item"><a class="header-link" href="">Наші проекти</a></li>
+            <li class="header-item"><a class="header-link" href="">Послуги</a></li>
+            <li class="header-item"><a class="header-link" href="">Новини</a></li>
+            <li class="header-item"><a class="header-link" href="">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h1><span>Передова IT студія</span>Ми створюємо легкі рішення важких задач і проблем</h1>
-        <a href="">Наші проекти</a>
+      <section class="hero container">
+        <h1 class="hero-title">
+          <span class="hero-sup-title">Передова IT студія</span>Ми створюємо легкі рішення важких
+          задач і проблем
+        </h1>
+        <a class="hero-link" href="">Наші проекти</a>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Ми створюємо мобільні додатки для великих корпорацій</h2>
         <p>
           Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem
@@ -63,7 +79,7 @@
         <a href="">Всі послуги</a>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Високі стандарти розробки</h2>
         <p>
           Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem
@@ -101,59 +117,80 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Наші роботи на яких ми спеціалізуємось</h2>
         <a href="">Всі послуги</a>
         <ul>
-          <li> <img src="./img/Rectangle3.jpeg" alt="робота">
-                <h3>01. Дослідження і упаковка</h3>
-                <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для
-                текстів на латиниці з початку XVI ст.</p>
-                <a href="">детельніше</a>
+          <li>
+            <img src="./img/Rectangle3.jpeg" alt="робота" />
+            <h3>01. Дослідження і упаковка</h3>
+            <p>
+              Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem
+              Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.
+            </p>
+            <a href="">детельніше</a>
           </li>
-          <li><img src="./img/Rectangle3.jpeg" alt="робота">
-                <h3>01. Дослідження і упаковка</h3>
-                <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для
-                текстів на латиниці з початку XVI ст.</p>
-                <a href="">детельніше</a></li>
-          <li><img src="./img/Rectangle3.jpeg" alt="робота">
-                <h3>01. Дослідження і упаковка</h3>
-                <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для
-                текстів на латиниці з початку XVI ст.</p>
-                <a href="">детельніше</a></li>
-
+          <li>
+            <img src="./img/Rectangle3.jpeg" alt="робота" />
+            <h3>01. Дослідження і упаковка</h3>
+            <p>
+              Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem
+              Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.
+            </p>
+            <a href="">детельніше</a>
+          </li>
+          <li>
+            <img src="./img/Rectangle3.jpeg" alt="робота" />
+            <h3>01. Дослідження і упаковка</h3>
+            <p>
+              Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem
+              Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.
+            </p>
+            <a href="">детельніше</a>
+          </li>
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Наші проекти</h2>
-        <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для
-        текстів на латиниці з початку XVI ст.</p>
+        <p>
+          Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem
+          Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.
+        </p>
         <ul>
-          <li><a href="/"><img alt="зображення" src="./img/Rectangletwo.png" width="255" height="255"></a></li>
-          <li><a href=""><img alt="зображення" src="./img/Rectangletwo.png" width="255" height="255"></a></li>
-          <li><a href=""><img alt="зображення" src="./img/Rectangletwo.png" width="255" height="255"></a></li>
+          <li>
+            <a href="/"
+              ><img alt="зображення" src="./img/Rectangletwo.png" width="255" height="255"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img alt="зображення" src="./img/Rectangletwo.png" width="255" height="255"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img alt="зображення" src="./img/Rectangletwo.png" width="255" height="255"
+            /></a>
+          </li>
         </ul>
         <a href="/">Всі проекти</a>
-
       </section>
 
-      <section>
+      <section class="container">
         <h2>Відео про нашу роботу</h2>
         <p>Просто подивіться, як ми працюємо</p>
         <video src="" poster="./img/video.jpg"></video>
       </section>
-      <section>
+      <section class="container">
         <h3>Підпишіться на нашу розсилку</h3>
         <p>Корисні статті, акції, новини - отримайте все це зараз!</p>
         <form>
-          <input type="email" placeholder="Ваш e-mail"/>
+          <input type="email" placeholder="Ваш e-mail" />
           <button type="submit">Підписатися</button>
         </form>
         <p>Ми не шлем спам, і не передаємо нікому ваші дані</p>
       </section>
-
-
     </main>
 
     <footer></footer>
