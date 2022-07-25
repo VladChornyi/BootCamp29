@@ -83,6 +83,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.56;
+  background-image: url(../img/hero-bg.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1900px 900px;
 }
 
 /* Клас скидання стилів для списків */
@@ -92,8 +96,7 @@ body {
 
 /* Хедер */
 .header {
-  background-color: gray;
-  opacity: 0.5;
+  /* background-color: gray; */
   border-bottom: 1px solid #a1a1a1;
 }
 
@@ -102,13 +105,24 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   color: var(--secondary-text-color);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.current {
+  border-bottom: #ffffff 2px solid;
+}
+
+.header-link:hover,
+.header-link:focus {
+  border-bottom: #ffffff 2px solid;
 }
 
 .header-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 30px;
+  /* gap: 30px; */
 }
 
 /* Секція "Герой" */
@@ -123,7 +137,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20÷16);
   text-align: center;
+  color: #ffffff;
 }
 
 .hero-title {
@@ -131,7 +150,11 @@ body {
   margin-right: auto;
 
   max-width: 829px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
   text-align: center;
+  color: var(--white-color);
 }
 
 .main-button {
